@@ -1,0 +1,16 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "nedb": "../data/",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "8+I+i0TKgcj/gXGjcKJ6UDYhTc+gOtlUAe/CFB1xYOsI2UF1Jt/pV97JKHggwHk326klZTvdSqLqqun+VpADLA=="
+    },
+    "local": {}
+  },
+  "corsWhitelist": [
+    "http://webnomad.org",
+    "http://www.webnomad.org"
+  ]
+}
