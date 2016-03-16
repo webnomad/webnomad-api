@@ -15,10 +15,10 @@ module.exports = function(){
 
   let options = {
     Model: db,
-    paginate: {
-      default: 5,
-      max: 25
-    }
+    // paginate: {
+    //   default: 5,
+    //   max: 25
+    // }
   };
 
   // Initialize our service with any options it requires
